@@ -39,14 +39,6 @@ body > div {
 body > div > div {
     display: flex;
 }
-body > div:nth-child(10) {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    display: flex;
-    background: rgba(0, 0, 0, 0.5);
-    backdrop-filter: none;
-}
 body > div:nth-child(10) > div:nth-child(1) > img {
     height: 60px;
     width: 60px;
@@ -118,4 +110,5 @@ button {
 }
 h3 {
     margin: 0;
+
 }
